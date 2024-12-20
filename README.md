@@ -1,5 +1,6 @@
 # 25945_Nsengiyumva_Christophe_Wednesday_evening
----  
+
+---
 
 ## Java OOP Exceptions and Scenarios Assignment  
 
@@ -11,8 +12,7 @@ This assignment demonstrates practical examples of exception handling in Java wh
 ## Structure  
 The program is implemented in a single Java file and includes:  
 1. Methods that simulate and handle different exceptions (both checked and unchecked).  
-2. Implementations for the following scenarios: 
-   - Car Rental System
+2. Implementations for the following scenarios:
    - Online Shopping
    - Online Betting
    - Student Attendance List
@@ -22,31 +22,25 @@ The program is implemented in a single Java file and includes:
 
 ## Scenario Descriptions and Features  
 
-### 1. Car Rental System  
-The Car Rental System allows users to:  
-- Add car rental entries, including car ID, model, and daily rental price.  
-- Handle invalid inputs, such as non-numeric IDs or empty car model names, using exception handling mechanisms.  
-- Use a menu-driven interface for ease of navigation.  
-
-### 2. Online Shopping  
+### 1. Online Shopping  
 The Online Shopping system includes:  
 - Adding items to a cart with item ID, name, and price.  
 - Handling invalid input scenarios, such as entering negative prices or invalid item names, through exceptions.  
 - Simulating stock checks with potential for exceptions like `IllegalArgumentException` for out-of-stock items.  
 
-### 3. Online Betting  
+### 2. Online Betting  
 The Online Betting system covers:  
 - Placing bets with a specified amount and betting odds.  
 - Handling invalid bet amounts, such as negative numbers, using exception handling.  
 - Simulating results and catching potential errors, such as dividing by zero during payout calculations.  
 
-### 4. Student Attendance List  
+### 3. Student Attendance List  
 The Student Attendance List system supports:  
 - Recording student attendance with student ID and name.  
 - Handling duplicate entries and invalid data input through exception handling.  
 - Simulating file-based attendance records, including exceptions like `IOException` and `FileNotFoundException`.  
 
-### 5. Traffic Fines System  
+### 4. Traffic Fines System  
 The Traffic Fines system includes:  
 - Adding traffic fine entries with vehicle registration number, fine amount, and violation type.  
 - Handling incorrect data, such as invalid registration numbers or negative fine amounts, with exceptions.  
@@ -108,19 +102,6 @@ The Traffic Fines system includes:
 
 ## Sample Output  
 
-### Car Rental System:  
-- Input for car ID, model, and price successfully added:  
-   ```
-   Car rental entry added successfully!
-   Car ID: 101
-   Car Model: Toyota Corolla
-   Rental Price: $50.0
-   ```  
-- Invalid input example:  
-   ```
-   IllegalArgumentException caught: Car model cannot be empty.
-   ```  
-
 ### Online Shopping:  
 - Valid item addition example:  
    ```
@@ -175,5 +156,6 @@ The Traffic Fines system includes:
 This program combines the demonstration of Java exception handling with multiple real-world scenarios, providing practical examples of handling errors gracefully. It equips learners with the skills needed to anticipate and manage exceptions effectively in software applications.
 
 ---
-Author: NSENGIYUMVA Christophe
+Author: NSENGIYUMVA Christophe  
 ID: 25945
+
